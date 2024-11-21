@@ -1,3 +1,25 @@
+#ISTAR
+
+- Clone project về máy  
+  `git clone https://github.com/NguyenAnHuy007/istar.git`
+- Bắt đầu làm, kéo project mới về nhánh mình
+
+  `git checkout main`
+  <br>
+  `git pull origin main`
+  <br>
+  `git checkout <your_branch_name>`
+  <br>
+  `git rebase main`
+- Checkout sang nhánh **main**  
+  `git checkout main`
+- Từ nhánh **main** checkout sang nhánh của mình  
+  `git checkout -b <your_branch_name>`
+- Sau khi hoàn thành task push lên nhánh của mình **(Không push lên nhánh _main_)**  
+    `git add .`
+    `git commit -m 'your message'`
+    `git push origin <your_branch_name>`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
